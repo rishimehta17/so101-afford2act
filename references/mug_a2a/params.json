@@ -1,0 +1,30 @@
+{
+  "source": "/home/raaslab/Afford2Act_SSD_folder/a2a_paper/data/mug_a2a/ep_009 frame 1",
+  "affs": [
+    "hold"
+  ],
+  "mask_thresh": 0.1,
+  "dilate": 1,
+  "crop": [
+    780,
+    160,
+    1120,
+    460
+  ],
+  "pairs": 100,
+  "points": 15,
+  "pad": 20,
+  "stride": 8,
+  "load_size": 112,
+  "thresh": 0.0,
+  "roi_y0y1x0x1": [
+    261,
+    377,
+    833,
+    939
+  ],
+  "ooal_peak": {
+    "hold": 0.7244027853012085,
+    "blobs": 3
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source": "/home/raaslab/Afford2Act_SSD_folder/a2a_so101/data/mug_a2a/ep_009",
+  "frames": 235,
+  "fps_recorded": 10.02,
+  "calibration_recorded": "my_follower_arm_v4",
+  "calibration_used": "my_follower_arm_v5",
+  "marker_first_frame": 1,
+  "marker_id": 0,
+  "frames_with_box": 235,
+  "box_from_marker": 212,
+  "box_from_csrt": 23,
+  "gz_closed_if_leader_below": 15.0,
+  "urdf": "third_party/SO-ARM100/Simulation/SO101/so101_new_calib.urdf",
+  "fk_frame": "gripper_frame_link"
+}

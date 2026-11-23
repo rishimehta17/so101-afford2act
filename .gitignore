@@ -1,0 +1,15 @@
+# raw recordings and robot runs (large; kept locally)
+recordings/
+runs/
+
+# outside dependencies (see README "Setup")
+/third_party
+/checkpoints
+
+# Python
+__pycache__/
+*.pyc
+
+# models you train yourself (the included one is listed explicitly)
+models/*
+!models/mug40fk_gl_h/

@@ -1,0 +1,36 @@
+{
+  "ref": "ep_009",
+  "affs": [
+    "hold"
+  ],
+  "crop": [
+    780,
+    160,
+    1120,
+    460
+  ],
+  "mask_thresh": 0.1,
+  "dilate": 1,
+  "pairs": 100,
+  "points": 15,
+  "pad": 20,
+  "stride": 8,
+  "load_size": 112,
+  "thresh": 0.0,
+  "reference": "ep_009",
+  "ooal_peak": {
+    "hold": 0.7806450724601746,
+    "blobs": 2
+  },
+  "mask_pixels": 4835,
+  "roi_y0y1x0x1": [
+    279,
+    396,
+    792,
+    916
+  ],
+  "dino_pairs": 98,
+  "pairs_in_both_masks": 38,
+  "visible_fraction": 0.9361344537815126,
+  "seconds": 14.6
+}

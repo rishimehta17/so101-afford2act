@@ -1,0 +1,21 @@
+# Tested with Python 3.12 and these versions (conda env on Ubuntu, NVIDIA GPU).
+# PyTorch: install the build that matches your CUDA from pytorch.org first.
+torch==2.11.0
+torchvision==0.26.0
+lerobot[feetech,kinematics]==0.6.1   # SO101 arms (Feetech motors) + forward kinematics (placo)
+placo==0.9.15                  # forward kinematics used by LeRobot's RobotKinematics
+opencv-contrib-python-headless==4.13.0.92   # ArUco (recording + camera fit)
+pyrealsense2==2.59.1.11053
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.18.1
+matplotlib==3.11.2
+# needed by the Afford2Act authors' OOAL / DINO code (A2A_REPO):
+timm==1.0.31
+scikit-learn==1.9.1
+ftfy==6.3.1
+regex
+tqdm
+pillow
+# CoTracker3 is downloaded at first use through torch.hub (facebookresearch/co-tracker).
+# ffmpeg (system or conda) is used to write H.264 videos; without it the raw mp4v video is kept.
