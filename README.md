@@ -4,8 +4,12 @@ A reproduction of [Afford2Act](https://arxiv.org/abs/2510.01433) ("How Far Can S
 LeRobot SO101 arm. The policy sees only **19 points in the camera image**: 15 on the mug's handle and 4 on the gripper.
 It outputs the next second of arm-joint changes and the gripper command.
 
+![The 5 rollouts of 2026-11-19 that lifted the mug and held it (camera view, 2x speed)](docs/lifted5.gif)
+
 **Result:** with the setup in this repo, the SO101 lifted the mug by its handle in 3 of 13 rollouts (2 held, 1 dropped
-it), after 0 lifts in the 45 rollouts of the earlier setups. Trained on 40 teleoperated demos.
+it), after 0 lifts in the 45 rollouts of the earlier setups. Trained on 40 teleoperated demos. In 4 more sessions on
+2026-11-19 the same setup lifted the yellow mug in 6 of 37 rollouts (5 held, 1 dropped; above: the 5 that held), 3 of
+15 with this repo's code; an unseen pink mug: 0 of 8.
 
 - Watch: [`docs/best3_side_by_side.mp4`](docs/best3_side_by_side.mp4): the 3 lifts side by side (40 s), and
   [`docs/best_runs.mp4`](docs/best_runs.mp4): all 7 rollouts that got the handle, real speed, with live graphs.
